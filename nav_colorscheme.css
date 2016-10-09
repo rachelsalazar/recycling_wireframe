@@ -1,8 +1,3 @@
-html body {
-  background-image: url("https://static.pexels.com/photos/1826/wood-nature-sunny-forest.jpg")no-repeat center center;
-  background-size: cover;
-}
-
 body {
   margin: 0 auto;
 }
@@ -10,7 +5,7 @@ body {
 nav {
   width: 100%;
   height: 5em;
-  background-image: url("http://www.ourdailygoodnews.com/wp-content/uploads/2015/06/Jordan-Chris-Plastic-Bottles-2009-Detail.jpg");
+  background-image: url("https://static.pexels.com/photos/1826/wood-nature-sunny-forest.jpg");
 }
 
 #navimg {
@@ -36,11 +31,16 @@ li {
   font-size: 30px;
 }
 
+.homebutton {
+  color:
+}
+
 a {
-text-decoration: none;
-color: #ffffff;
+  text-decoration: none;
+  color: #D8794C;
+  transition: 400ms all;
 }
 
 a:hover {
-  color: #0a47aa;
+  font-size: 33px;
 }
