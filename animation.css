@@ -1,0 +1,25 @@
+@-webkit-keyframes animation {
+  0% { margin-left: -100px; margin-top: 200px;}
+  50% { margin-left: 600px; margin-top: 100px; width: 200px; height: 200px;}
+  100% { margin-left: 960px; margin-top: 400px;}
+}
+
+@keyframes animation {
+  0% { margin-left: -100px; margin-top: 200px;}
+  50% { margin-left: 600px; margin-top: 100px; width: 200px; height: 200px;}
+  100% { margin-left: 960px; margin-top: 400px;}
+}
+
+#div1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 90%;
+  margin-left: -120px;
+  margin-top: 200px;
+  background-color: black;
+  -webkit-animation-name: animation; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-name: animation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
